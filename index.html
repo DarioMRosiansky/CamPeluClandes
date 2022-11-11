@@ -13,8 +13,8 @@
   <title> Cam Pelu Clandestina</title>
   <link rel="icon" type="image/jpg" href="./images/tijeraicon.jpg">
   <meta name="description"
-    content="Up-Down is an arcade bar (21+) in Uptown Minneapolis featuring a wide selection of 80's & 90's arcade games, pinball, skee-ball, 60 craft beers on tap and pizza by the slice." />
-  <meta name="keywords" content="specials, daily, lorem, bars, arcade " />
+    content="cam pelu clandestina es una peluqueria audaz, moderna, feminista y emponderadisima en el barrio de Villa Crespo. Hacemos cortes y colores con un equipe fantastique" />
+  <meta name="keywords" content="Peluqueria, Colores, Peinados, Make Up, Amor" />
   <meta name="author" content="Dario Marcelo Rosiansky" />
 </head>
 
@@ -93,19 +93,15 @@
         </p>
         <p class="parrafo-two">
           <i class="fa-solid fa-martini-glass-empty" id="fa-icon"></i>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, ex. Possimus vero pariatur porro nihil,
-          laudantium quidem voluptatibus qui, voluptas animi ab sit! Dolorum, inventore recusandae? Quam aliquam
-          deserunt rem.
+          "Podes tomarte unos drinking -Amiga tomamos unas birris!!"
         </p>
         <p class="parrafo-three">
           <i class="fa-solid fa-pizza-slice" id="fa-icon"></i>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, ex. Possimus vero pariatur porro nihil,
-          laudantium quidem voluptatibus qui, voluptas animi ab sit! Dolorum, inventore recusandae? Quam aliquam
-          deserunt rem.
+          "Tenemos un Cafeteria a unos metros"
         </p>
         <aside class="aside-one">
           <img src="./images/girl.jpg"
-            alt="A girl with curly blonde hair wearing a white sweatshirt standing in front of skee-ball." />
+            alt="la Cam" />
           <p class="aside-one__parrafo">
             "Amigaaaa, veni a cortarteee, que quedas regiaaaaa"
             <span class="aside-one__photo-by"> Cam dixit's </span>
@@ -113,9 +109,7 @@
         </aside>
         <p class="parrafo-four">
           <i class="fa-regular fa-calendar-days" id="fa-icon"></i>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, ex. Possimus vero pariatur porro nihil,
-          laudantium quidem voluptatibus qui, voluptas animi ab sit! Dolorum, inventore recusandae? Quam aliquam
-          deserunt rem.
+          Atencion solo con turno... o mucha paciencia...
         </p>
         <p class="parrafo-five">
           <i class="fa-regular fa-calendar-check" id="fa-icon"></i>
@@ -125,9 +119,7 @@
         </p>
         <p class="parrafo-six">
           <i class="fa-solid fa-paw" id="fa-icon"></i>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, ex. Possimus vero pariatur porro nihil,
-          laudantium quidem voluptatibus qui, voluptas animi ab sit! Dolorum, inventore recusandae? Quam aliquam
-          deserunt rem.
+          "Somos Pet friendly podes venir con tu mascota, amamos!"
         </p>
       </div>
       <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
@@ -200,6 +192,7 @@
       <div class="footer__hours">
         <h3 class="footer__headings">Atendemos:</h3>
         <p class="footer__parrafos">
+          
           <table>
             <thead>
                 <tr>
@@ -267,8 +260,32 @@
   <script src="https://kit.fontawesome.com/394293560f.js" crossorigin="anonymous"></script>
   <script src="./scripts/script.js"></script>
   <script src="./scripts/wow.min.js"></script>
+  
   <script>
     new WOW().init();
+  </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBbGEVIHFb1oXa8ZqNZS7lwwOQ1dTqEri0",
+      authDomain: "hosting-angular-21933.firebaseapp.com",
+      projectId: "hosting-angular-21933",
+      storageBucket: "hosting-angular-21933.appspot.com",
+      messagingSenderId: "643667681579",
+      appId: "1:643667681579:web:67f0c56db97d46b7bba56e",
+      measurementId: "G-HJ7RM9MJWC"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
   </script>
 </body>
 
