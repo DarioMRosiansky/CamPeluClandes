@@ -20,19 +20,21 @@ body {
   font-family: "Dela Gothic One", cursive;
   font-weight: normal;
   background: transparent;
+  
 }
+
 body::after {
   content: "";
-  position: fixed;
+  position:fixed;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
   z-index: -2;
   display: block;
-  background: url("../images/background.jpeg") no-repeat 50% 50%;
-  background-size: cover;
-}
+  background: url("../images/background.jpeg") no-repeat 100% 100%;
+  background-size: 100%
+  }
 
 .header__updown,
 .header__location {
@@ -769,6 +771,8 @@ events-container {
 /*? -------------------------------- SECOND BREAK-POINT -------------------------------- */
 @media screen and (min-width: 768px) {
   /* -------------------------------- INDEX.HTML -------------------------------- */
+  
+ 
   header .header-container {
     height: 40%;
   }
@@ -893,6 +897,12 @@ events-container {
 /*? -------------------------------- TERCER BREAK-POINT -------------------------------- */
 @media screen and (min-width: 992px) {
   /* -------------------------------- NAVBAR -------------------------------- */
+  body::after {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
   nav ul {
     width: 100%;
     max-width: 1250px;
