@@ -32,7 +32,7 @@ body::after {
   bottom: 0;
   z-index: -2;
   display: block;
-  background: url("../images/background.jpeg") no-repeat 100% 100%;
+  background: url("../images/background.jpeg") no-repeat 50% 50%;
   background-size: 100%
   }
 
@@ -107,7 +107,7 @@ header .header-container {
   border-radius: 25px;
   max-width: 2500px;
   margin: 2px auto 5px;
-  animation: flicker 3.5s infinite alternate;
+  animation: flicker 1s infinite alternate;
   font-family: "Tourney", cursive;
   text-transform: uppercase;
 }
@@ -274,7 +274,9 @@ nav .nav-bar__links-list a:hover {
   position: absolute;
   bottom: 0;
   width: 100%;
-  font-size: 2rem;
+  font-size: 1rem;
+  animation: parrafo 3.5s infinite alternate;
+  
   background: rgba(1, 1, 1, 0.5019607843);
   text-shadow: 5px 2px #af0e7c;
 }
@@ -897,12 +899,7 @@ events-container {
 /*? -------------------------------- TERCER BREAK-POINT -------------------------------- */
 @media screen and (min-width: 992px) {
   /* -------------------------------- NAVBAR -------------------------------- */
-  body::after {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-  }
-  
+   
   nav ul {
     width: 100%;
     max-width: 1250px;
@@ -1168,5 +1165,17 @@ td, th {
     opacity: 1;
   }
 }
+
+
+@keyframes parrafo {
+      0%, 19%, 21%, 23%, 25%, 54%, 56%, 99%, 100% {
+      text-shadow: -0.1rem -0.1rem 1rem #faf4f4, 0.2rem 0.2rem 1rem #faf4f4, 0 0 2rem #0398b3, 0 0 4rem #0398b3, 0 0 6rem #0398b3, 0 0 8rem #0398b3, 0 0 10rem #0398b3;
+      box-shadow: 0 0 0.5rem #faf4f4, inset 0 0 0.5rem #faf4f4, 0 0 2rem #af0e7c, inset 0 0 2rem #af0e7c, 0 0 4rem #af0e7c, inset 0 0 4rem #af0e7c;
+    }
+    20%, 24%, 55% {
+      text-shadow: none;
+      box-shadow: none;
+    }
+  }
 
 /*# sourceMappingURL=style.css.map */
