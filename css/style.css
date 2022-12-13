@@ -32,7 +32,7 @@ body::after {
   bottom: 0;
   z-index: -2;
   display: block;
-  background: url("./images/background.jpg") repeat 50% 50%;
+  background: url("../images/background.JPG") repeat 50% 50%;
   background-size: 100%
   }
 
