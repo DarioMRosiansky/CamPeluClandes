@@ -32,7 +32,7 @@ body::after {
   bottom: 0;
   z-index: -2;
   display: block;
-  background: url("./images/background.JPG") repeat 50% 50%;
+  background: url("../images/background.jpeg") no-repeat 50% 50%;
   background-size: 100%
   }
 
@@ -280,7 +280,6 @@ nav .nav-bar__links-list a:hover {
   background: rgba(1, 1, 1, 0.5019607843);
   text-shadow: 5px 2px #af0e7c;
 }
-
 .aside-one .aside-one__parrafo .aside-one__photo-by {
   font-size: 1rem;
   background: #111010;
@@ -298,7 +297,7 @@ nav .nav-bar__links-list a:hover {
 }
 .article-two:before {
   content: "";
-  background-image: url("../images/slider-background.jpg");
+  background-image: url("../images/slider-background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -432,13 +431,13 @@ nav .nav-bar__links-list a:hover {
 }
 
 .menu__beer-container {
-  background: url("../images/beer-taps.jpg");
+  background: url("../images/beer-taps.jpeg");
   background-size: cover;
   background-position-x: 30%;
 }
 
 .menu__pizza-container {
-  background: url("../images/pizza.jpg");
+  background: url("../images/pizza.jpeg");
   background-size: cover;
 }
 
@@ -463,7 +462,7 @@ events-container {
 .calendar__container {
   text-align: center;
   margin-bottom: 50px;
-  background: url("../images/events.jpg");
+  background: url("../images/events.jpeg");
   border-radius: 0px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -472,7 +471,7 @@ events-container {
 /*? -------------------------------- CSS GALLERY.HTML -------------------------------- */
 .gallery-container {
   width: 100%;
-  background: url("../images/arcades.jpg");
+  background: url("../images/arcades.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -541,7 +540,7 @@ events-container {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/alt-background.jpg") no-repeat center;
+  background: url("../images/alt-background.jpeg") no-repeat center;
   background-size: cover;
   z-index: -1;
   filter: blur(5px);
@@ -551,7 +550,7 @@ events-container {
   margin-top: 20px;
   margin-bottom: 10px;
   height: 100px;
-  background: url("../images/girl.jpg") no-repeat center;
+  background: url("../images/girl.jpeg") no-repeat center;
   background-size: contain;
 }
 
